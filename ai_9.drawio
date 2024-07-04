@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2024-07-04T17:22:11.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="84JKcc4zwRxX-CnPsC0z" version="24.6.4" type="device">
+  <diagram name="Page-1" id="zCJOOwEvWnlqeo-MKQPp">
+    <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="24lvV09j2VHUAjs1KWGv-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="215.62" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24lvV09j2VHUAjs1KWGv-2" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="215.62" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24lvV09j2VHUAjs1KWGv-7" value="9. input float x. if x is positive print &quot;positive&quot; &lt;br&gt;if not then print &quot;zero or negative&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="30" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2i2Ug3EKJSbQpZiKw1Ly-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="24lvV09j2VHUAjs1KWGv-1" target="24lvV09j2VHUAjs1KWGv-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274.37" y="150" as="sourcePoint" />
+            <mxPoint x="274.37" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="24lvV09j2VHUAjs1KWGv-24" target="qp22Ti-q-wzSMl1_3iVj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24lvV09j2VHUAjs1KWGv-24" value="x: float&lt;br&gt;&quot;enter a number&quot;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="226.87" y="210" width="97.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qp22Ti-q-wzSMl1_3iVj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-9" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qp22Ti-q-wzSMl1_3iVj-2">
+          <mxGeometry x="-0.5564" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qp22Ti-q-wzSMl1_3iVj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-10" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qp22Ti-q-wzSMl1_3iVj-3">
+          <mxGeometry x="-0.5382" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-1" value="x &amp;gt; 0&lt;div&gt;?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235.62" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qp22Ti-q-wzSMl1_3iVj-4" target="24lvV09j2VHUAjs1KWGv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-4" value="&quot;Positive&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qp22Ti-q-wzSMl1_3iVj-5" target="24lvV09j2VHUAjs1KWGv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qp22Ti-q-wzSMl1_3iVj-5" value="&quot;Negative or zero&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
